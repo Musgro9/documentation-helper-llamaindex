@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+llama-index = "==0.8.48"
+python-dotenv = "*"
+openai = "==0.28.1"
+requests = "*"
+beautifulsoup4 = "*"
+pinecone-client = "*"
+black = "*"
+llama-cpp-python = "==0.2.11"
+transformers = "==4.34.1"
+streamlit = '==1.27.2'
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
